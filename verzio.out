@@ -21,7 +21,7 @@ Objective:  hany_filmet_latott = 6 (MAXimum)
                                    0            -0             = 
      7 osszes_kiadas
                                 5750                        6000 
-     8 haromdes_megnezett_filmek
+     8 haromdes_megnezett_filmek_szama
                                    2             1               
      9 egy_etel_legalabb
                                    1             1               
@@ -310,9 +310,9 @@ Objective:  hany_filmet_latott = 6 (MAXimum)
                     *              0             0             1 
    120 eszik_e[10,chips]
                     *              0             0             1 
-   121 valami                   5121                             
-   122 valami2                  1790                             
-   123 kaja                      450                             
+   121 seged                    5121                             
+   122 seged2                   1790                             
+   123 etel                      450                             
 
 Integer feasibility conditions:
 

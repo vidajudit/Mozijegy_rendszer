@@ -1,7 +1,7 @@
 data;
 set Filmek := 1 2 3 4 5 6 7 8 9;
 set Napok := 1 2 3 4 5 6 7 8 9 10;
-set Kaja := nachos popcorn chips;
+set Etel := nachos popcorn chips;
 
 param jegyar:	1	2	3	4	5	6	7	8	9	10:=
 1	1000	1200	1100	1050	1000	900	980	1000	1030	1200
@@ -27,7 +27,7 @@ param haromdese :=
 9	1
 ;
 
-param kajaar:=
+param etelar:=
 nachos 500
 popcorn 450
 chips 470
@@ -35,7 +35,7 @@ chips 470
 
 param diakkedvezmeny := 0.9;
 param sajat_penz := 6000;
-param kajapenz := 500;
+param etelpenz := 500;
 param diak_vane:= 1;
 param akar_e_haromdet :=
 1	0
