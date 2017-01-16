@@ -1,18 +1,18 @@
 Problem:    verzio
 Rows:       30
 Columns:    123 (120 integer, 120 binary)
-Non-zeros:  696
+Non-zeros:  666
 Status:     INTEGER OPTIMAL
 Objective:  hany_filmet_latott = 6 (MAXimum)
 
    No.   Row name        Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
      1 ne_koltson_tobbet
-                                5121                        6000 
+                                5247                        6000 
      2 segedfuggveny
                                    0            -0             = 
      3 ne_koltson_tobbet_haromdevel
-                                1790                        6000 
+                                1800                        6000 
      4 segedfuggveny_haromde
                                    0            -0             = 
      5 ne_koltson_tobbet_naponta_etelre
@@ -20,7 +20,7 @@ Objective:  hany_filmet_latott = 6 (MAXimum)
      6 segedfuggveny_etel
                                    0            -0             = 
      7 osszes_kiadas
-                                5750                        6000 
+                                5877                        6000 
      8 haromdes_megnezett_filmek_szama
                                    2             1               
      9 egy_etel_legalabb
@@ -48,13 +48,13 @@ Objective:  hany_filmet_latott = 6 (MAXimum)
     20 egy_film_egyszer[2]
                                    0                           1 
     21 egy_film_egyszer[3]
-                                   0                           1 
+                                   1                           1 
     22 egy_film_egyszer[4]
                                    1                           1 
     23 egy_film_egyszer[5]
                                    0                           1 
     24 egy_film_egyszer[6]
-                                   1                           1 
+                                   0                           1 
     25 egy_film_egyszer[7]
                                    0                           1 
     26 egy_film_egyszer[8]
@@ -109,7 +109,7 @@ Objective:  hany_filmet_latott = 6 (MAXimum)
     19 megnezi_e[3,Elrabolva]
                     *              0             0             1 
     20 megnezi_e[3,Rio]
-                    *              0             0             1 
+                    *              1             0             1 
     21 megnezi_e[3,Utazok]
                     *              0             0             1 
     22 megnezi_e[3,Utveszto]
@@ -161,7 +161,7 @@ Objective:  hany_filmet_latott = 6 (MAXimum)
     45 megnezi_e[5,Enekelj]
                     *              0             0             1 
     46 megnezi_e[6,Elrabolva]
-                    *              1             0             1 
+                    *              0             0             1 
     47 megnezi_e[6,Rio]
                     *              0             0             1 
     48 megnezi_e[6,Utazok]
@@ -215,9 +215,9 @@ Objective:  hany_filmet_latott = 6 (MAXimum)
     72 megnezi_e[8,Enekelj]
                     *              0             0             1 
     73 megnezi_e[9,Elrabolva]
-                    *              0             0             1 
-    74 megnezi_e[9,Rio]
                     *              1             0             1 
+    74 megnezi_e[9,Rio]
+                    *              0             0             1 
     75 megnezi_e[9,Utazok]
                     *              0             0             1 
     76 megnezi_e[9,Utveszto]
@@ -271,9 +271,9 @@ Objective:  hany_filmet_latott = 6 (MAXimum)
    100 eszik_e[10,nachos]
                     *              0             0             1 
    101 eszik_e[1,popcorn]
-                    *              1             0             1 
-   102 eszik_e[2,popcorn]
                     *              0             0             1 
+   102 eszik_e[2,popcorn]
+                    *              1             0             1 
    103 eszik_e[3,popcorn]
                     *              0             0             1 
    104 eszik_e[4,popcorn]
@@ -310,8 +310,8 @@ Objective:  hany_filmet_latott = 6 (MAXimum)
                     *              0             0             1 
    120 eszik_e[10,chips]
                     *              0             0             1 
-   121 seged                    5121                             
-   122 seged2                   1790                             
+   121 seged                    5247                             
+   122 seged2                   1800                             
    123 etel                      450                             
 
 Integer feasibility conditions:
