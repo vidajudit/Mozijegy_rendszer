@@ -10,7 +10,6 @@ param sajat_penz;
 param etelpenz;
 param diak_vane;
 param akar_e_haromdet{f in Filmek};
-#param ertek;
 
 var megnezi_e{n in Napok, f in Filmek} binary;
 var eszik_e{n in Napok, e in Etel} binary;
@@ -18,7 +17,6 @@ var seged;
 var seged2;
 var etel;
 
-#ne költsön több pénzt, mint amennyi van neki, attól függõen, hogy van-e diákigazolványa
 s.t. ne_koltson_tobbet:
 sum{n in Napok, f in Filmek} ((megnezi_e[n,f]*jegyar[f,n]*diakkedvezmeny*diak_vane)+(megnezi_e[n,f]*(diak_vane-1)*(-1)*jegyar[f,n])) <= sajat_penz;
 
@@ -40,11 +38,9 @@ sum{e in Etel, n in Napok} (eszik_e[n,e]*etelar[e])=etel;
 s.t. osszes_kiadas:
 (seged-((seged2*diakkedvezmeny*diak_vane)+(seged2*(diak_vane-1)*(-1)))+seged2 + etel)<=sajat_penz;
 
-#legalább egy 3D-s filmet lásson
 s.t. haromdes_megnezett_filmek_szama:
 sum{n in Napok, f in Filmek} (haromdese[f]*megnezi_e[n,f]*akar_e_haromdet[f])>=1;
 
-#egyszer legalább vásároljon a büfében
 s.t. egy_etel_legalabb:
 sum{e in Etel, n in Napok} eszik_e[n,e] >=1;
 
@@ -54,8 +50,12 @@ sum{n in Napok} megnezi_e[n,f]<=1;
 s.t. egy_film_egyszer{n in Napok}:
 sum{f in Filmek} megnezi_e[n,f]<=1;
 
+
+
 maximize hany_filmet_latott: sum{n in Napok, f in Filmek} megnezi_e[n,f];
 minimize mennyiert_evett: sum{n in Napok, e in Etel} (eszik_e[n,e]*etelar[e]);
+
+
 
 solve;
 printf "\n\n\nAz optimálisan megnézhetõ filmek száma %d forintból: %d db,\ndiákigazolvány kód: %d\n", sajat_penz, hany_filmet_latott, diak_vane;
@@ -85,7 +85,7 @@ for{f in Filmek}{
 }
 
 
-printf"\n\n%d forintért eszik a filmek\nmellé az alábbi nap(ok)on:\n",  etelpenz;
+printf"\n\n%d forintért eszik a filmek\nmellé az alábbi nap(ok)on:\n", etel;
 for{e in Etel}{
 	printf "%s ennivaló:  \t",e;
 	for{{0}: sum{n in Napok} eszik_e[n,e]==0}
