@@ -61,7 +61,7 @@ solve;
 printf "\n\n\nAz optimálisan megnézhetõ filmek száma %d forintból: %d db,\ndiákigazolvány kód: %d\n", sajat_penz, hany_filmet_latott, diak_vane;
 printf "-------------------------------------------\n";
 for{f in Filmek}{
-	printf "%-1d. filmet\t\t", f;
+	printf "%-10s filmet\t", f;
 	for{{0}: sum{n in Napok} megnezi_e[n,f]==0}
 		 printf "nem nézi meg.";
 		
@@ -74,7 +74,7 @@ for{f in Filmek}{
 printf"\n\n";
 
 for{f in Filmek}{
-	printf "%-1d. filmet\t\t", f;
+	printf "%-10s filmet\t", f;
 	for{{0}: sum{n in Napok} (haromdese[f]*megnezi_e[n,f]*akar_e_haromdet[f])==0}
 		 printf "nem nézi meg 3D-ben.";
 		

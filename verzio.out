@@ -25,23 +25,23 @@ Objective:  hany_filmet_latott = 6 (MAXimum)
                                    2             1               
      9 egy_etel_legalabb
                                    1             1               
-    10 egy_nap_egy_film[1]
+    10 egy_nap_egy_film[Elrabolva]
                                    1                           1 
-    11 egy_nap_egy_film[2]
+    11 egy_nap_egy_film[Rio]
                                    1                           1 
-    12 egy_nap_egy_film[3]
+    12 egy_nap_egy_film[Utazok]
                                    1                           1 
-    13 egy_nap_egy_film[4]
+    13 egy_nap_egy_film[Utveszto]
                                    0                           1 
-    14 egy_nap_egy_film[5]
+    14 egy_nap_egy_film[Joy]
                                    0                           1 
-    15 egy_nap_egy_film[6]
+    15 egy_nap_egy_film[Idegpalya]
                                    1                           1 
-    16 egy_nap_egy_film[7]
+    16 egy_nap_egy_film[Alien]
                                    1                           1 
-    17 egy_nap_egy_film[8]
+    17 egy_nap_egy_film[Rubinvoros]
                                    1                           1 
-    18 egy_nap_egy_film[9]
+    18 egy_nap_egy_film[Enekelj]
                                    0                           1 
     19 egy_film_egyszer[1]
                                    1                           1 
@@ -70,185 +70,185 @@ Objective:  hany_filmet_latott = 6 (MAXimum)
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 megnezi_e[1,1]
+     1 megnezi_e[1,Elrabolva]
                     *              0             0             1 
-     2 megnezi_e[1,2]
+     2 megnezi_e[1,Rio]
                     *              0             0             1 
-     3 megnezi_e[1,3]
+     3 megnezi_e[1,Utazok]
                     *              1             0             1 
-     4 megnezi_e[1,4]
+     4 megnezi_e[1,Utveszto]
                     *              0             0             1 
-     5 megnezi_e[1,5]
+     5 megnezi_e[1,Joy]
                     *              0             0             1 
-     6 megnezi_e[1,6]
+     6 megnezi_e[1,Idegpalya]
                     *              0             0             1 
-     7 megnezi_e[1,7]
+     7 megnezi_e[1,Alien]
                     *              0             0             1 
-     8 megnezi_e[1,8]
+     8 megnezi_e[1,Rubinvoros]
                     *              0             0             1 
-     9 megnezi_e[1,9]
+     9 megnezi_e[1,Enekelj]
                     *              0             0             1 
-    10 megnezi_e[2,1]
+    10 megnezi_e[2,Elrabolva]
                     *              0             0             1 
-    11 megnezi_e[2,2]
+    11 megnezi_e[2,Rio]
                     *              0             0             1 
-    12 megnezi_e[2,3]
+    12 megnezi_e[2,Utazok]
                     *              0             0             1 
-    13 megnezi_e[2,4]
+    13 megnezi_e[2,Utveszto]
                     *              0             0             1 
-    14 megnezi_e[2,5]
+    14 megnezi_e[2,Joy]
                     *              0             0             1 
-    15 megnezi_e[2,6]
+    15 megnezi_e[2,Idegpalya]
                     *              0             0             1 
-    16 megnezi_e[2,7]
+    16 megnezi_e[2,Alien]
                     *              0             0             1 
-    17 megnezi_e[2,8]
+    17 megnezi_e[2,Rubinvoros]
                     *              0             0             1 
-    18 megnezi_e[2,9]
+    18 megnezi_e[2,Enekelj]
                     *              0             0             1 
-    19 megnezi_e[3,1]
+    19 megnezi_e[3,Elrabolva]
                     *              0             0             1 
-    20 megnezi_e[3,2]
+    20 megnezi_e[3,Rio]
                     *              0             0             1 
-    21 megnezi_e[3,3]
+    21 megnezi_e[3,Utazok]
                     *              0             0             1 
-    22 megnezi_e[3,4]
+    22 megnezi_e[3,Utveszto]
                     *              0             0             1 
-    23 megnezi_e[3,5]
+    23 megnezi_e[3,Joy]
                     *              0             0             1 
-    24 megnezi_e[3,6]
+    24 megnezi_e[3,Idegpalya]
                     *              0             0             1 
-    25 megnezi_e[3,7]
+    25 megnezi_e[3,Alien]
                     *              0             0             1 
-    26 megnezi_e[3,8]
+    26 megnezi_e[3,Rubinvoros]
                     *              0             0             1 
-    27 megnezi_e[3,9]
+    27 megnezi_e[3,Enekelj]
                     *              0             0             1 
-    28 megnezi_e[4,1]
+    28 megnezi_e[4,Elrabolva]
                     *              0             0             1 
-    29 megnezi_e[4,2]
+    29 megnezi_e[4,Rio]
                     *              0             0             1 
-    30 megnezi_e[4,3]
+    30 megnezi_e[4,Utazok]
                     *              0             0             1 
-    31 megnezi_e[4,4]
+    31 megnezi_e[4,Utveszto]
                     *              0             0             1 
-    32 megnezi_e[4,5]
+    32 megnezi_e[4,Joy]
                     *              0             0             1 
-    33 megnezi_e[4,6]
+    33 megnezi_e[4,Idegpalya]
                     *              0             0             1 
-    34 megnezi_e[4,7]
+    34 megnezi_e[4,Alien]
                     *              1             0             1 
-    35 megnezi_e[4,8]
+    35 megnezi_e[4,Rubinvoros]
                     *              0             0             1 
-    36 megnezi_e[4,9]
+    36 megnezi_e[4,Enekelj]
                     *              0             0             1 
-    37 megnezi_e[5,1]
+    37 megnezi_e[5,Elrabolva]
                     *              0             0             1 
-    38 megnezi_e[5,2]
+    38 megnezi_e[5,Rio]
                     *              0             0             1 
-    39 megnezi_e[5,3]
+    39 megnezi_e[5,Utazok]
                     *              0             0             1 
-    40 megnezi_e[5,4]
+    40 megnezi_e[5,Utveszto]
                     *              0             0             1 
-    41 megnezi_e[5,5]
+    41 megnezi_e[5,Joy]
                     *              0             0             1 
-    42 megnezi_e[5,6]
+    42 megnezi_e[5,Idegpalya]
                     *              0             0             1 
-    43 megnezi_e[5,7]
+    43 megnezi_e[5,Alien]
                     *              0             0             1 
-    44 megnezi_e[5,8]
+    44 megnezi_e[5,Rubinvoros]
                     *              0             0             1 
-    45 megnezi_e[5,9]
+    45 megnezi_e[5,Enekelj]
                     *              0             0             1 
-    46 megnezi_e[6,1]
+    46 megnezi_e[6,Elrabolva]
                     *              1             0             1 
-    47 megnezi_e[6,2]
+    47 megnezi_e[6,Rio]
                     *              0             0             1 
-    48 megnezi_e[6,3]
+    48 megnezi_e[6,Utazok]
                     *              0             0             1 
-    49 megnezi_e[6,4]
+    49 megnezi_e[6,Utveszto]
                     *              0             0             1 
-    50 megnezi_e[6,5]
+    50 megnezi_e[6,Joy]
                     *              0             0             1 
-    51 megnezi_e[6,6]
+    51 megnezi_e[6,Idegpalya]
                     *              0             0             1 
-    52 megnezi_e[6,7]
+    52 megnezi_e[6,Alien]
                     *              0             0             1 
-    53 megnezi_e[6,8]
+    53 megnezi_e[6,Rubinvoros]
                     *              0             0             1 
-    54 megnezi_e[6,9]
+    54 megnezi_e[6,Enekelj]
                     *              0             0             1 
-    55 megnezi_e[7,1]
+    55 megnezi_e[7,Elrabolva]
                     *              0             0             1 
-    56 megnezi_e[7,2]
+    56 megnezi_e[7,Rio]
                     *              0             0             1 
-    57 megnezi_e[7,3]
+    57 megnezi_e[7,Utazok]
                     *              0             0             1 
-    58 megnezi_e[7,4]
+    58 megnezi_e[7,Utveszto]
                     *              0             0             1 
-    59 megnezi_e[7,5]
+    59 megnezi_e[7,Joy]
                     *              0             0             1 
-    60 megnezi_e[7,6]
+    60 megnezi_e[7,Idegpalya]
                     *              0             0             1 
-    61 megnezi_e[7,7]
+    61 megnezi_e[7,Alien]
                     *              0             0             1 
-    62 megnezi_e[7,8]
+    62 megnezi_e[7,Rubinvoros]
                     *              0             0             1 
-    63 megnezi_e[7,9]
+    63 megnezi_e[7,Enekelj]
                     *              0             0             1 
-    64 megnezi_e[8,1]
+    64 megnezi_e[8,Elrabolva]
                     *              0             0             1 
-    65 megnezi_e[8,2]
+    65 megnezi_e[8,Rio]
                     *              0             0             1 
-    66 megnezi_e[8,3]
+    66 megnezi_e[8,Utazok]
                     *              0             0             1 
-    67 megnezi_e[8,4]
+    67 megnezi_e[8,Utveszto]
                     *              0             0             1 
-    68 megnezi_e[8,5]
+    68 megnezi_e[8,Joy]
                     *              0             0             1 
-    69 megnezi_e[8,6]
+    69 megnezi_e[8,Idegpalya]
                     *              1             0             1 
-    70 megnezi_e[8,7]
+    70 megnezi_e[8,Alien]
                     *              0             0             1 
-    71 megnezi_e[8,8]
+    71 megnezi_e[8,Rubinvoros]
                     *              0             0             1 
-    72 megnezi_e[8,9]
+    72 megnezi_e[8,Enekelj]
                     *              0             0             1 
-    73 megnezi_e[9,1]
+    73 megnezi_e[9,Elrabolva]
                     *              0             0             1 
-    74 megnezi_e[9,2]
+    74 megnezi_e[9,Rio]
                     *              1             0             1 
-    75 megnezi_e[9,3]
+    75 megnezi_e[9,Utazok]
                     *              0             0             1 
-    76 megnezi_e[9,4]
+    76 megnezi_e[9,Utveszto]
                     *              0             0             1 
-    77 megnezi_e[9,5]
+    77 megnezi_e[9,Joy]
                     *              0             0             1 
-    78 megnezi_e[9,6]
+    78 megnezi_e[9,Idegpalya]
                     *              0             0             1 
-    79 megnezi_e[9,7]
+    79 megnezi_e[9,Alien]
                     *              0             0             1 
-    80 megnezi_e[9,8]
+    80 megnezi_e[9,Rubinvoros]
                     *              0             0             1 
-    81 megnezi_e[9,9]
+    81 megnezi_e[9,Enekelj]
                     *              0             0             1 
-    82 megnezi_e[10,1]
+    82 megnezi_e[10,Elrabolva]
                     *              0             0             1 
-    83 megnezi_e[10,2]
+    83 megnezi_e[10,Rio]
                     *              0             0             1 
-    84 megnezi_e[10,3]
+    84 megnezi_e[10,Utazok]
                     *              0             0             1 
-    85 megnezi_e[10,4]
+    85 megnezi_e[10,Utveszto]
                     *              0             0             1 
-    86 megnezi_e[10,5]
+    86 megnezi_e[10,Joy]
                     *              0             0             1 
-    87 megnezi_e[10,6]
+    87 megnezi_e[10,Idegpalya]
                     *              0             0             1 
-    88 megnezi_e[10,7]
+    88 megnezi_e[10,Alien]
                     *              0             0             1 
-    89 megnezi_e[10,8]
+    89 megnezi_e[10,Rubinvoros]
                     *              1             0             1 
-    90 megnezi_e[10,9]
+    90 megnezi_e[10,Enekelj]
                     *              0             0             1 
     91 eszik_e[1,nachos]
                     *              0             0             1 
