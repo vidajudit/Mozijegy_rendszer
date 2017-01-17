@@ -1,0 +1,939 @@
+Problem:    jelesert
+Rows:       246
+Columns:    213 (210 integer, 210 binary)
+Non-zeros:  1596
+Status:     INTEGER OPTIMAL
+Objective:  hany_filmet_latott = 6 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 ne_koltson_tobbet
+                                   0            -0             = 
+     2 ne_koltson_haromdere_tobbet
+                                   0            -0             = 
+     3 segedfuggveny_etel
+                                   0            -0             = 
+     4 osszes_kiadas
+                                5830                        6000 
+     5 ne_menjen_csak_enni[1,1]
+                                   0                          -0 
+     6 ne_menjen_csak_enni[1,2]
+                                   0                          -0 
+     7 ne_menjen_csak_enni[2,1]
+                                   0                          -0 
+     8 ne_menjen_csak_enni[2,2]
+                                   0                          -0 
+     9 ne_menjen_csak_enni[3,1]
+                                   0                          -0 
+    10 ne_menjen_csak_enni[3,2]
+                                   0                          -0 
+    11 ne_menjen_csak_enni[4,1]
+                                   0                          -0 
+    12 ne_menjen_csak_enni[4,2]
+                                   0                          -0 
+    13 ne_menjen_csak_enni[5,1]
+                                   0                          -0 
+    14 ne_menjen_csak_enni[5,2]
+                                   0                          -0 
+    15 ne_menjen_csak_enni[6,1]
+                                   0                          -0 
+    16 ne_menjen_csak_enni[6,2]
+                                   0                          -0 
+    17 ne_menjen_csak_enni[7,1]
+                                   0                          -0 
+    18 ne_menjen_csak_enni[7,2]
+                                   0                          -0 
+    19 ne_menjen_csak_enni[8,1]
+                                   0                          -0 
+    20 ne_menjen_csak_enni[8,2]
+                                   0                          -0 
+    21 ne_menjen_csak_enni[9,1]
+                                   0                          -0 
+    22 ne_menjen_csak_enni[9,2]
+                                   0                          -0 
+    23 ne_menjen_csak_enni[10,1]
+                                   0                          -0 
+    24 ne_menjen_csak_enni[10,2]
+                                   0                          -0 
+    25 haromdes_megnezett_filmek_szama
+                                   4             1               
+    26 etel_legalabb
+                                   0            -0               
+    27 egy_nap_egy_film[Elrabolva,1]
+                                   0                           1 
+    28 egy_nap_egy_film[Elrabolva,2]
+                                   0                           1 
+    29 egy_nap_egy_film[Rio,1]
+                                   0                           1 
+    30 egy_nap_egy_film[Rio,2]
+                                   0                           1 
+    31 egy_nap_egy_film[Utazok,1]
+                                   0                           1 
+    32 egy_nap_egy_film[Utazok,2]
+                                   0                           1 
+    33 egy_nap_egy_film[Utveszto,1]
+                                   0                           1 
+    34 egy_nap_egy_film[Utveszto,2]
+                                   0                           1 
+    35 egy_nap_egy_film[Joy,1]
+                                   0                           1 
+    36 egy_nap_egy_film[Joy,2]
+                                   0                           1 
+    37 egy_nap_egy_film[Idegpalya,1]
+                                   0                           1 
+    38 egy_nap_egy_film[Idegpalya,2]
+                                   0                           1 
+    39 egy_nap_egy_film[Alien,1]
+                                   1                           1 
+    40 egy_nap_egy_film[Alien,2]
+                                   1                           1 
+    41 egy_nap_egy_film[Rubinvoros,1]
+                                   1                           1 
+    42 egy_nap_egy_film[Rubinvoros,2]
+                                   1                           1 
+    43 egy_nap_egy_film[Enekelj,1]
+                                   1                           1 
+    44 egy_nap_egy_film[Enekelj,2]
+                                   1                           1 
+    45 egy_film_egyszer[1,1]
+                                   0                           1 
+    46 egy_film_egyszer[1,2]
+                                   0                           1 
+    47 egy_film_egyszer[2,1]
+                                   0                           1 
+    48 egy_film_egyszer[2,2]
+                                   0                           1 
+    49 egy_film_egyszer[3,1]
+                                   0                           1 
+    50 egy_film_egyszer[3,2]
+                                   0                           1 
+    51 egy_film_egyszer[4,1]
+                                   1                           1 
+    52 egy_film_egyszer[4,2]
+                                   1                           1 
+    53 egy_film_egyszer[5,1]
+                                   1                           1 
+    54 egy_film_egyszer[5,2]
+                                   1                           1 
+    55 egy_film_egyszer[6,1]
+                                   0                           1 
+    56 egy_film_egyszer[6,2]
+                                   0                           1 
+    57 egy_film_egyszer[7,1]
+                                   0                           1 
+    58 egy_film_egyszer[7,2]
+                                   0                           1 
+    59 egy_film_egyszer[8,1]
+                                   0                           1 
+    60 egy_film_egyszer[8,2]
+                                   0                           1 
+    61 egy_film_egyszer[9,1]
+                                   0                           1 
+    62 egy_film_egyszer[9,2]
+                                   0                           1 
+    63 egy_film_egyszer[10,1]
+                                   1                           1 
+    64 egy_film_egyszer[10,2]
+                                   1                           1 
+    65 akciofilm[1,Elrabolva]
+                                   0                          -0 
+    66 akciofilm[1,Rio]
+                                   0                          -0 
+    67 akciofilm[1,Utazok]
+                                   0                          -0 
+    68 akciofilm[1,Utveszto]
+                                   0                          -0 
+    69 akciofilm[1,Joy]
+                                   0                          -0 
+    70 akciofilm[1,Idegpalya]
+                                   0                          -0 
+    71 akciofilm[1,Alien]
+                                   0                          -0 
+    72 akciofilm[1,Rubinvoros]
+                                   0                          -0 
+    73 akciofilm[1,Enekelj]
+                                   0                          -0 
+    74 akciofilm[2,Elrabolva]
+                                   0                          -0 
+    75 akciofilm[2,Rio]
+                                   0                          -0 
+    76 akciofilm[2,Utazok]
+                                   0                          -0 
+    77 akciofilm[2,Utveszto]
+                                   0                          -0 
+    78 akciofilm[2,Joy]
+                                   0                          -0 
+    79 akciofilm[2,Idegpalya]
+                                   0                          -0 
+    80 akciofilm[2,Alien]
+                                   0                          -0 
+    81 akciofilm[2,Rubinvoros]
+                                   0                          -0 
+    82 akciofilm[2,Enekelj]
+                                   0                          -0 
+    83 akciofilm[3,Elrabolva]
+                                   0                          -0 
+    84 akciofilm[3,Rio]
+                                   0                          -0 
+    85 akciofilm[3,Utazok]
+                                   0                          -0 
+    86 akciofilm[3,Utveszto]
+                                   0                          -0 
+    87 akciofilm[3,Joy]
+                                   0                          -0 
+    88 akciofilm[3,Idegpalya]
+                                   0                          -0 
+    89 akciofilm[3,Alien]
+                                   0                          -0 
+    90 akciofilm[3,Rubinvoros]
+                                   0                          -0 
+    91 akciofilm[3,Enekelj]
+                                   0                          -0 
+    92 akciofilm[4,Elrabolva]
+                                   0                          -0 
+    93 akciofilm[4,Rio]
+                                   0                          -0 
+    94 akciofilm[4,Utazok]
+                                   0                          -0 
+    95 akciofilm[4,Utveszto]
+                                   0                          -0 
+    96 akciofilm[4,Joy]
+                                   0                          -0 
+    97 akciofilm[4,Idegpalya]
+                                   0                          -0 
+    98 akciofilm[4,Alien]
+                                   0                          -0 
+    99 akciofilm[4,Rubinvoros]
+                                   0                          -0 
+   100 akciofilm[4,Enekelj]
+                                   0                          -0 
+   101 akciofilm[5,Elrabolva]
+                                   0                          -0 
+   102 akciofilm[5,Rio]
+                                   0                          -0 
+   103 akciofilm[5,Utazok]
+                                   0                          -0 
+   104 akciofilm[5,Utveszto]
+                                   0                          -0 
+   105 akciofilm[5,Joy]
+                                   0                          -0 
+   106 akciofilm[5,Idegpalya]
+                                   0                          -0 
+   107 akciofilm[5,Alien]
+                                   0                          -0 
+   108 akciofilm[5,Rubinvoros]
+                                   0                          -0 
+   109 akciofilm[5,Enekelj]
+                                   0                          -0 
+   110 akciofilm[6,Elrabolva]
+                                   0                          -0 
+   111 akciofilm[6,Rio]
+                                   0                          -0 
+   112 akciofilm[6,Utazok]
+                                   0                          -0 
+   113 akciofilm[6,Utveszto]
+                                   0                          -0 
+   114 akciofilm[6,Joy]
+                                   0                          -0 
+   115 akciofilm[6,Idegpalya]
+                                   0                          -0 
+   116 akciofilm[6,Alien]
+                                   0                          -0 
+   117 akciofilm[6,Rubinvoros]
+                                   0                          -0 
+   118 akciofilm[6,Enekelj]
+                                   0                          -0 
+   119 akciofilm[7,Elrabolva]
+                                   0                          -0 
+   120 akciofilm[7,Rio]
+                                   0                          -0 
+   121 akciofilm[7,Utazok]
+                                   0                          -0 
+   122 akciofilm[7,Utveszto]
+                                   0                          -0 
+   123 akciofilm[7,Joy]
+                                   0                          -0 
+   124 akciofilm[7,Idegpalya]
+                                   0                          -0 
+   125 akciofilm[7,Alien]
+                                   0                          -0 
+   126 akciofilm[7,Rubinvoros]
+                                   0                          -0 
+   127 akciofilm[7,Enekelj]
+                                   0                          -0 
+   128 akciofilm[8,Elrabolva]
+                                   0                          -0 
+   129 akciofilm[8,Rio]
+                                   0                          -0 
+   130 akciofilm[8,Utazok]
+                                   0                          -0 
+   131 akciofilm[8,Utveszto]
+                                   0                          -0 
+   132 akciofilm[8,Joy]
+                                   0                          -0 
+   133 akciofilm[8,Idegpalya]
+                                   0                          -0 
+   134 akciofilm[8,Alien]
+                                   0                          -0 
+   135 akciofilm[8,Rubinvoros]
+                                   0                          -0 
+   136 akciofilm[8,Enekelj]
+                                   0                          -0 
+   137 akciofilm[9,Elrabolva]
+                                   0                          -0 
+   138 akciofilm[9,Rio]
+                                   0                          -0 
+   139 akciofilm[9,Utazok]
+                                   0                          -0 
+   140 akciofilm[9,Utveszto]
+                                   0                          -0 
+   141 akciofilm[9,Joy]
+                                   0                          -0 
+   142 akciofilm[9,Idegpalya]
+                                   0                          -0 
+   143 akciofilm[9,Alien]
+                                   0                          -0 
+   144 akciofilm[9,Rubinvoros]
+                                   0                          -0 
+   145 akciofilm[9,Enekelj]
+                                   0                          -0 
+   146 akciofilm[10,Elrabolva]
+                                   0                          -0 
+   147 akciofilm[10,Rio]
+                                   0                          -0 
+   148 akciofilm[10,Utazok]
+                                   0                          -0 
+   149 akciofilm[10,Utveszto]
+                                   0                          -0 
+   150 akciofilm[10,Joy]
+                                   0                          -0 
+   151 akciofilm[10,Idegpalya]
+                                   0                          -0 
+   152 akciofilm[10,Alien]
+                                   0                          -0 
+   153 akciofilm[10,Rubinvoros]
+                                   0                          -0 
+   154 akciofilm[10,Enekelj]
+                                   0                          -0 
+   155 romantikus_film[1,Elrabolva]
+                                   0                          -0 
+   156 romantikus_film[1,Rio]
+                                   0                          -0 
+   157 romantikus_film[1,Utazok]
+                                   0                          -0 
+   158 romantikus_film[1,Utveszto]
+                                   0                          -0 
+   159 romantikus_film[1,Joy]
+                                   0                          -0 
+   160 romantikus_film[1,Idegpalya]
+                                   0                          -0 
+   161 romantikus_film[1,Alien]
+                                   0                          -0 
+   162 romantikus_film[1,Rubinvoros]
+                                   0                          -0 
+   163 romantikus_film[1,Enekelj]
+                                   0                          -0 
+   164 romantikus_film[2,Elrabolva]
+                                   0                          -0 
+   165 romantikus_film[2,Rio]
+                                   0                          -0 
+   166 romantikus_film[2,Utazok]
+                                   0                          -0 
+   167 romantikus_film[2,Utveszto]
+                                   0                          -0 
+   168 romantikus_film[2,Joy]
+                                   0                          -0 
+   169 romantikus_film[2,Idegpalya]
+                                   0                          -0 
+   170 romantikus_film[2,Alien]
+                                   0                          -0 
+   171 romantikus_film[2,Rubinvoros]
+                                   0                          -0 
+   172 romantikus_film[2,Enekelj]
+                                   0                          -0 
+   173 romantikus_film[3,Elrabolva]
+                                   0                          -0 
+   174 romantikus_film[3,Rio]
+                                   0                          -0 
+   175 romantikus_film[3,Utazok]
+                                   0                          -0 
+   176 romantikus_film[3,Utveszto]
+                                   0                          -0 
+   177 romantikus_film[3,Joy]
+                                   0                          -0 
+   178 romantikus_film[3,Idegpalya]
+                                   0                          -0 
+   179 romantikus_film[3,Alien]
+                                   0                          -0 
+   180 romantikus_film[3,Rubinvoros]
+                                   0                          -0 
+   181 romantikus_film[3,Enekelj]
+                                   0                          -0 
+   182 romantikus_film[4,Elrabolva]
+                                   0                          -0 
+   183 romantikus_film[4,Rio]
+                                   0                          -0 
+   184 romantikus_film[4,Utazok]
+                                   0                          -0 
+   185 romantikus_film[4,Utveszto]
+                                   0                          -0 
+   186 romantikus_film[4,Joy]
+                                   0                          -0 
+   187 romantikus_film[4,Idegpalya]
+                                   0                          -0 
+   188 romantikus_film[4,Alien]
+                                   0                          -0 
+   189 romantikus_film[4,Rubinvoros]
+                                   0                          -0 
+   190 romantikus_film[4,Enekelj]
+                                   0                          -0 
+   191 romantikus_film[5,Elrabolva]
+                                   0                          -0 
+   192 romantikus_film[5,Rio]
+                                   0                          -0 
+   193 romantikus_film[5,Utazok]
+                                   0                          -0 
+   194 romantikus_film[5,Utveszto]
+                                   0                          -0 
+   195 romantikus_film[5,Joy]
+                                   0                          -0 
+   196 romantikus_film[5,Idegpalya]
+                                   0                          -0 
+   197 romantikus_film[5,Alien]
+                                   0                          -0 
+   198 romantikus_film[5,Rubinvoros]
+                                   0                          -0 
+   199 romantikus_film[5,Enekelj]
+                                   0                          -0 
+   200 romantikus_film[6,Elrabolva]
+                                   0                          -0 
+   201 romantikus_film[6,Rio]
+                                   0                          -0 
+   202 romantikus_film[6,Utazok]
+                                   0                          -0 
+   203 romantikus_film[6,Utveszto]
+                                   0                          -0 
+   204 romantikus_film[6,Joy]
+                                   0                          -0 
+   205 romantikus_film[6,Idegpalya]
+                                   0                          -0 
+   206 romantikus_film[6,Alien]
+                                   0                          -0 
+   207 romantikus_film[6,Rubinvoros]
+                                   0                          -0 
+   208 romantikus_film[6,Enekelj]
+                                   0                          -0 
+   209 romantikus_film[7,Elrabolva]
+                                   0                          -0 
+   210 romantikus_film[7,Rio]
+                                   0                          -0 
+   211 romantikus_film[7,Utazok]
+                                   0                          -0 
+   212 romantikus_film[7,Utveszto]
+                                   0                          -0 
+   213 romantikus_film[7,Joy]
+                                   0                          -0 
+   214 romantikus_film[7,Idegpalya]
+                                   0                          -0 
+   215 romantikus_film[7,Alien]
+                                   0                          -0 
+   216 romantikus_film[7,Rubinvoros]
+                                   0                          -0 
+   217 romantikus_film[7,Enekelj]
+                                   0                          -0 
+   218 romantikus_film[8,Elrabolva]
+                                   0                          -0 
+   219 romantikus_film[8,Rio]
+                                   0                          -0 
+   220 romantikus_film[8,Utazok]
+                                   0                          -0 
+   221 romantikus_film[8,Utveszto]
+                                   0                          -0 
+   222 romantikus_film[8,Joy]
+                                   0                          -0 
+   223 romantikus_film[8,Idegpalya]
+                                   0                          -0 
+   224 romantikus_film[8,Alien]
+                                   0                          -0 
+   225 romantikus_film[8,Rubinvoros]
+                                   0                          -0 
+   226 romantikus_film[8,Enekelj]
+                                   0                          -0 
+   227 romantikus_film[9,Elrabolva]
+                                   0                          -0 
+   228 romantikus_film[9,Rio]
+                                   0                          -0 
+   229 romantikus_film[9,Utazok]
+                                   0                          -0 
+   230 romantikus_film[9,Utveszto]
+                                   0                          -0 
+   231 romantikus_film[9,Joy]
+                                   0                          -0 
+   232 romantikus_film[9,Idegpalya]
+                                   0                          -0 
+   233 romantikus_film[9,Alien]
+                                   0                          -0 
+   234 romantikus_film[9,Rubinvoros]
+                                   0                          -0 
+   235 romantikus_film[9,Enekelj]
+                                   0                          -0 
+   236 romantikus_film[10,Elrabolva]
+                                   0                          -0 
+   237 romantikus_film[10,Rio]
+                                   0                          -0 
+   238 romantikus_film[10,Utazok]
+                                   0                          -0 
+   239 romantikus_film[10,Utveszto]
+                                   0                          -0 
+   240 romantikus_film[10,Joy]
+                                   0                          -0 
+   241 romantikus_film[10,Idegpalya]
+                                   0                          -0 
+   242 romantikus_film[10,Alien]
+                                   0                          -0 
+   243 romantikus_film[10,Rubinvoros]
+                                   0                          -0 
+   244 romantikus_film[10,Enekelj]
+                                   0                          -0 
+   245 hany_filmet_latott
+                                   6                             
+   246 mennyiert_evett
+                                1390                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 megnezi_e[1,Elrabolva,1]
+                    *              0             0             1 
+     2 megnezi_e[1,Elrabolva,2]
+                    *              0             0             1 
+     3 megnezi_e[1,Rio,1]
+                    *              0             0             1 
+     4 megnezi_e[1,Rio,2]
+                    *              0             0             1 
+     5 megnezi_e[1,Utazok,1]
+                    *              0             0             1 
+     6 megnezi_e[1,Utazok,2]
+                    *              0             0             1 
+     7 megnezi_e[1,Utveszto,1]
+                    *              0             0             1 
+     8 megnezi_e[1,Utveszto,2]
+                    *              0             0             1 
+     9 megnezi_e[1,Joy,1]
+                    *              0             0             1 
+    10 megnezi_e[1,Joy,2]
+                    *              0             0             1 
+    11 megnezi_e[1,Idegpalya,1]
+                    *              0             0             1 
+    12 megnezi_e[1,Idegpalya,2]
+                    *              0             0             1 
+    13 megnezi_e[1,Alien,1]
+                    *              0             0             1 
+    14 megnezi_e[1,Alien,2]
+                    *              0             0             1 
+    15 megnezi_e[1,Rubinvoros,1]
+                    *              0             0             1 
+    16 megnezi_e[1,Rubinvoros,2]
+                    *              0             0             1 
+    17 megnezi_e[1,Enekelj,1]
+                    *              0             0             1 
+    18 megnezi_e[1,Enekelj,2]
+                    *              0             0             1 
+    19 megnezi_e[2,Elrabolva,1]
+                    *              0             0             1 
+    20 megnezi_e[2,Elrabolva,2]
+                    *              0             0             1 
+    21 megnezi_e[2,Rio,1]
+                    *              0             0             1 
+    22 megnezi_e[2,Rio,2]
+                    *              0             0             1 
+    23 megnezi_e[2,Utazok,1]
+                    *              0             0             1 
+    24 megnezi_e[2,Utazok,2]
+                    *              0             0             1 
+    25 megnezi_e[2,Utveszto,1]
+                    *              0             0             1 
+    26 megnezi_e[2,Utveszto,2]
+                    *              0             0             1 
+    27 megnezi_e[2,Joy,1]
+                    *              0             0             1 
+    28 megnezi_e[2,Joy,2]
+                    *              0             0             1 
+    29 megnezi_e[2,Idegpalya,1]
+                    *              0             0             1 
+    30 megnezi_e[2,Idegpalya,2]
+                    *              0             0             1 
+    31 megnezi_e[2,Alien,1]
+                    *              0             0             1 
+    32 megnezi_e[2,Alien,2]
+                    *              0             0             1 
+    33 megnezi_e[2,Rubinvoros,1]
+                    *              0             0             1 
+    34 megnezi_e[2,Rubinvoros,2]
+                    *              0             0             1 
+    35 megnezi_e[2,Enekelj,1]
+                    *              0             0             1 
+    36 megnezi_e[2,Enekelj,2]
+                    *              0             0             1 
+    37 megnezi_e[3,Elrabolva,1]
+                    *              0             0             1 
+    38 megnezi_e[3,Elrabolva,2]
+                    *              0             0             1 
+    39 megnezi_e[3,Rio,1]
+                    *              0             0             1 
+    40 megnezi_e[3,Rio,2]
+                    *              0             0             1 
+    41 megnezi_e[3,Utazok,1]
+                    *              0             0             1 
+    42 megnezi_e[3,Utazok,2]
+                    *              0             0             1 
+    43 megnezi_e[3,Utveszto,1]
+                    *              0             0             1 
+    44 megnezi_e[3,Utveszto,2]
+                    *              0             0             1 
+    45 megnezi_e[3,Joy,1]
+                    *              0             0             1 
+    46 megnezi_e[3,Joy,2]
+                    *              0             0             1 
+    47 megnezi_e[3,Idegpalya,1]
+                    *              0             0             1 
+    48 megnezi_e[3,Idegpalya,2]
+                    *              0             0             1 
+    49 megnezi_e[3,Alien,1]
+                    *              0             0             1 
+    50 megnezi_e[3,Alien,2]
+                    *              0             0             1 
+    51 megnezi_e[3,Rubinvoros,1]
+                    *              0             0             1 
+    52 megnezi_e[3,Rubinvoros,2]
+                    *              0             0             1 
+    53 megnezi_e[3,Enekelj,1]
+                    *              0             0             1 
+    54 megnezi_e[3,Enekelj,2]
+                    *              0             0             1 
+    55 megnezi_e[4,Elrabolva,1]
+                    *              0             0             1 
+    56 megnezi_e[4,Elrabolva,2]
+                    *              0             0             1 
+    57 megnezi_e[4,Rio,1]
+                    *              0             0             1 
+    58 megnezi_e[4,Rio,2]
+                    *              0             0             1 
+    59 megnezi_e[4,Utazok,1]
+                    *              0             0             1 
+    60 megnezi_e[4,Utazok,2]
+                    *              0             0             1 
+    61 megnezi_e[4,Utveszto,1]
+                    *              0             0             1 
+    62 megnezi_e[4,Utveszto,2]
+                    *              0             0             1 
+    63 megnezi_e[4,Joy,1]
+                    *              0             0             1 
+    64 megnezi_e[4,Joy,2]
+                    *              0             0             1 
+    65 megnezi_e[4,Idegpalya,1]
+                    *              0             0             1 
+    66 megnezi_e[4,Idegpalya,2]
+                    *              0             0             1 
+    67 megnezi_e[4,Alien,1]
+                    *              1             0             1 
+    68 megnezi_e[4,Alien,2]
+                    *              1             0             1 
+    69 megnezi_e[4,Rubinvoros,1]
+                    *              0             0             1 
+    70 megnezi_e[4,Rubinvoros,2]
+                    *              0             0             1 
+    71 megnezi_e[4,Enekelj,1]
+                    *              0             0             1 
+    72 megnezi_e[4,Enekelj,2]
+                    *              0             0             1 
+    73 megnezi_e[5,Elrabolva,1]
+                    *              0             0             1 
+    74 megnezi_e[5,Elrabolva,2]
+                    *              0             0             1 
+    75 megnezi_e[5,Rio,1]
+                    *              0             0             1 
+    76 megnezi_e[5,Rio,2]
+                    *              0             0             1 
+    77 megnezi_e[5,Utazok,1]
+                    *              0             0             1 
+    78 megnezi_e[5,Utazok,2]
+                    *              0             0             1 
+    79 megnezi_e[5,Utveszto,1]
+                    *              0             0             1 
+    80 megnezi_e[5,Utveszto,2]
+                    *              0             0             1 
+    81 megnezi_e[5,Joy,1]
+                    *              0             0             1 
+    82 megnezi_e[5,Joy,2]
+                    *              0             0             1 
+    83 megnezi_e[5,Idegpalya,1]
+                    *              0             0             1 
+    84 megnezi_e[5,Idegpalya,2]
+                    *              0             0             1 
+    85 megnezi_e[5,Alien,1]
+                    *              0             0             1 
+    86 megnezi_e[5,Alien,2]
+                    *              0             0             1 
+    87 megnezi_e[5,Rubinvoros,1]
+                    *              0             0             1 
+    88 megnezi_e[5,Rubinvoros,2]
+                    *              0             0             1 
+    89 megnezi_e[5,Enekelj,1]
+                    *              1             0             1 
+    90 megnezi_e[5,Enekelj,2]
+                    *              1             0             1 
+    91 megnezi_e[6,Elrabolva,1]
+                    *              0             0             1 
+    92 megnezi_e[6,Elrabolva,2]
+                    *              0             0             1 
+    93 megnezi_e[6,Rio,1]
+                    *              0             0             1 
+    94 megnezi_e[6,Rio,2]
+                    *              0             0             1 
+    95 megnezi_e[6,Utazok,1]
+                    *              0             0             1 
+    96 megnezi_e[6,Utazok,2]
+                    *              0             0             1 
+    97 megnezi_e[6,Utveszto,1]
+                    *              0             0             1 
+    98 megnezi_e[6,Utveszto,2]
+                    *              0             0             1 
+    99 megnezi_e[6,Joy,1]
+                    *              0             0             1 
+   100 megnezi_e[6,Joy,2]
+                    *              0             0             1 
+   101 megnezi_e[6,Idegpalya,1]
+                    *              0             0             1 
+   102 megnezi_e[6,Idegpalya,2]
+                    *              0             0             1 
+   103 megnezi_e[6,Alien,1]
+                    *              0             0             1 
+   104 megnezi_e[6,Alien,2]
+                    *              0             0             1 
+   105 megnezi_e[6,Rubinvoros,1]
+                    *              0             0             1 
+   106 megnezi_e[6,Rubinvoros,2]
+                    *              0             0             1 
+   107 megnezi_e[6,Enekelj,1]
+                    *              0             0             1 
+   108 megnezi_e[6,Enekelj,2]
+                    *              0             0             1 
+   109 megnezi_e[7,Elrabolva,1]
+                    *              0             0             1 
+   110 megnezi_e[7,Elrabolva,2]
+                    *              0             0             1 
+   111 megnezi_e[7,Rio,1]
+                    *              0             0             1 
+   112 megnezi_e[7,Rio,2]
+                    *              0             0             1 
+   113 megnezi_e[7,Utazok,1]
+                    *              0             0             1 
+   114 megnezi_e[7,Utazok,2]
+                    *              0             0             1 
+   115 megnezi_e[7,Utveszto,1]
+                    *              0             0             1 
+   116 megnezi_e[7,Utveszto,2]
+                    *              0             0             1 
+   117 megnezi_e[7,Joy,1]
+                    *              0             0             1 
+   118 megnezi_e[7,Joy,2]
+                    *              0             0             1 
+   119 megnezi_e[7,Idegpalya,1]
+                    *              0             0             1 
+   120 megnezi_e[7,Idegpalya,2]
+                    *              0             0             1 
+   121 megnezi_e[7,Alien,1]
+                    *              0             0             1 
+   122 megnezi_e[7,Alien,2]
+                    *              0             0             1 
+   123 megnezi_e[7,Rubinvoros,1]
+                    *              0             0             1 
+   124 megnezi_e[7,Rubinvoros,2]
+                    *              0             0             1 
+   125 megnezi_e[7,Enekelj,1]
+                    *              0             0             1 
+   126 megnezi_e[7,Enekelj,2]
+                    *              0             0             1 
+   127 megnezi_e[8,Elrabolva,1]
+                    *              0             0             1 
+   128 megnezi_e[8,Elrabolva,2]
+                    *              0             0             1 
+   129 megnezi_e[8,Rio,1]
+                    *              0             0             1 
+   130 megnezi_e[8,Rio,2]
+                    *              0             0             1 
+   131 megnezi_e[8,Utazok,1]
+                    *              0             0             1 
+   132 megnezi_e[8,Utazok,2]
+                    *              0             0             1 
+   133 megnezi_e[8,Utveszto,1]
+                    *              0             0             1 
+   134 megnezi_e[8,Utveszto,2]
+                    *              0             0             1 
+   135 megnezi_e[8,Joy,1]
+                    *              0             0             1 
+   136 megnezi_e[8,Joy,2]
+                    *              0             0             1 
+   137 megnezi_e[8,Idegpalya,1]
+                    *              0             0             1 
+   138 megnezi_e[8,Idegpalya,2]
+                    *              0             0             1 
+   139 megnezi_e[8,Alien,1]
+                    *              0             0             1 
+   140 megnezi_e[8,Alien,2]
+                    *              0             0             1 
+   141 megnezi_e[8,Rubinvoros,1]
+                    *              0             0             1 
+   142 megnezi_e[8,Rubinvoros,2]
+                    *              0             0             1 
+   143 megnezi_e[8,Enekelj,1]
+                    *              0             0             1 
+   144 megnezi_e[8,Enekelj,2]
+                    *              0             0             1 
+   145 megnezi_e[9,Elrabolva,1]
+                    *              0             0             1 
+   146 megnezi_e[9,Elrabolva,2]
+                    *              0             0             1 
+   147 megnezi_e[9,Rio,1]
+                    *              0             0             1 
+   148 megnezi_e[9,Rio,2]
+                    *              0             0             1 
+   149 megnezi_e[9,Utazok,1]
+                    *              0             0             1 
+   150 megnezi_e[9,Utazok,2]
+                    *              0             0             1 
+   151 megnezi_e[9,Utveszto,1]
+                    *              0             0             1 
+   152 megnezi_e[9,Utveszto,2]
+                    *              0             0             1 
+   153 megnezi_e[9,Joy,1]
+                    *              0             0             1 
+   154 megnezi_e[9,Joy,2]
+                    *              0             0             1 
+   155 megnezi_e[9,Idegpalya,1]
+                    *              0             0             1 
+   156 megnezi_e[9,Idegpalya,2]
+                    *              0             0             1 
+   157 megnezi_e[9,Alien,1]
+                    *              0             0             1 
+   158 megnezi_e[9,Alien,2]
+                    *              0             0             1 
+   159 megnezi_e[9,Rubinvoros,1]
+                    *              0             0             1 
+   160 megnezi_e[9,Rubinvoros,2]
+                    *              0             0             1 
+   161 megnezi_e[9,Enekelj,1]
+                    *              0             0             1 
+   162 megnezi_e[9,Enekelj,2]
+                    *              0             0             1 
+   163 megnezi_e[10,Elrabolva,1]
+                    *              0             0             1 
+   164 megnezi_e[10,Elrabolva,2]
+                    *              0             0             1 
+   165 megnezi_e[10,Rio,1]
+                    *              0             0             1 
+   166 megnezi_e[10,Rio,2]
+                    *              0             0             1 
+   167 megnezi_e[10,Utazok,1]
+                    *              0             0             1 
+   168 megnezi_e[10,Utazok,2]
+                    *              0             0             1 
+   169 megnezi_e[10,Utveszto,1]
+                    *              0             0             1 
+   170 megnezi_e[10,Utveszto,2]
+                    *              0             0             1 
+   171 megnezi_e[10,Joy,1]
+                    *              0             0             1 
+   172 megnezi_e[10,Joy,2]
+                    *              0             0             1 
+   173 megnezi_e[10,Idegpalya,1]
+                    *              0             0             1 
+   174 megnezi_e[10,Idegpalya,2]
+                    *              0             0             1 
+   175 megnezi_e[10,Alien,1]
+                    *              0             0             1 
+   176 megnezi_e[10,Alien,2]
+                    *              0             0             1 
+   177 megnezi_e[10,Rubinvoros,1]
+                    *              1             0             1 
+   178 megnezi_e[10,Rubinvoros,2]
+                    *              1             0             1 
+   179 megnezi_e[10,Enekelj,1]
+                    *              0             0             1 
+   180 megnezi_e[10,Enekelj,2]
+                    *              0             0             1 
+   181 eszik_e[1,nachos]
+                    *              0             0             1 
+   182 eszik_e[2,nachos]
+                    *              0             0             1 
+   183 eszik_e[3,nachos]
+                    *              0             0             1 
+   184 eszik_e[4,nachos]
+                    *              0             0             1 
+   185 eszik_e[5,nachos]
+                    *              0             0             1 
+   186 eszik_e[6,nachos]
+                    *              0             0             1 
+   187 eszik_e[7,nachos]
+                    *              0             0             1 
+   188 eszik_e[8,nachos]
+                    *              0             0             1 
+   189 eszik_e[9,nachos]
+                    *              0             0             1 
+   190 eszik_e[10,nachos]
+                    *              0             0             1 
+   191 eszik_e[1,popcorn]
+                    *              0             0             1 
+   192 eszik_e[2,popcorn]
+                    *              0             0             1 
+   193 eszik_e[3,popcorn]
+                    *              0             0             1 
+   194 eszik_e[4,popcorn]
+                    *              1             0             1 
+   195 eszik_e[5,popcorn]
+                    *              0             0             1 
+   196 eszik_e[6,popcorn]
+                    *              0             0             1 
+   197 eszik_e[7,popcorn]
+                    *              0             0             1 
+   198 eszik_e[8,popcorn]
+                    *              0             0             1 
+   199 eszik_e[9,popcorn]
+                    *              0             0             1 
+   200 eszik_e[10,popcorn]
+                    *              0             0             1 
+   201 eszik_e[1,chips]
+                    *              0             0             1 
+   202 eszik_e[2,chips]
+                    *              0             0             1 
+   203 eszik_e[3,chips]
+                    *              0             0             1 
+   204 eszik_e[4,chips]
+                    *              0             0             1 
+   205 eszik_e[5,chips]
+                    *              1             0             1 
+   206 eszik_e[6,chips]
+                    *              0             0             1 
+   207 eszik_e[7,chips]
+                    *              0             0             1 
+   208 eszik_e[8,chips]
+                    *              0             0             1 
+   209 eszik_e[9,chips]
+                    *              0             0             1 
+   210 eszik_e[10,chips]
+                    *              1             0             1 
+   211 seged                    4600                             
+   212 seged2                   3000                             
+   213 etel                     1390                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 9.09e-13 on row 1
+        max.rel.err = 9.09e-13 on row 1
+        High quality
+
+End of output
