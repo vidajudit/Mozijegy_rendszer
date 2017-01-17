@@ -1,0 +1,59 @@
+data;
+set Filmek := Elrabolva Rio Utazok Utveszto Joy Idegpalya Alien Rubinvoros Enekelj;
+set Napok := 1 2 3 4 5 6 7 8 9 10;
+set Etel := nachos popcorn chips;
+
+param jegyar:	1	2	3	4	5	6	7	8	9	10:=
+Elrabolva	1000	1200	1100	1050	1000	900	980	1000	1030	1200
+Rio	1050	1100	1000	1200	1030	1250	1600	1400	990	900
+Utazok	1100	1100	1200	1250	1100	1050	1300	1250	1300	1200
+Utveszto	1050	1000	1050	1050	1050	1100	1250	1120	1200	1100
+Joy	1200	1300	1250	1100	1000	1400	1250	1200	1000	1150
+Idegpalya	1250	1200	1300	1400	1250	1200	1150	1100	1500	1100
+Alien	1000	1000	900	800	700	1100	1000	1100	1150	1000
+Rubinvoros	1000	1000	1050	1050	1050	1100	1250	1120	1200	800
+Enekelj	1050	1000	900	800	700	1100	1000	1100	1150	890
+;
+
+param haromdese := 
+Elrabolva	0
+Rio	1
+Utazok	0
+Utveszto	1
+Joy	0
+Idegpalya	0
+Alien	1
+Rubinvoros	0
+Enekelj	1
+;
+
+param etelar:=
+nachos 500
+popcorn 450
+chips 470
+;
+
+param diakkedvezmeny := 0.9;
+param sajat_penz := 6000;
+param etelpenz := 500;
+param diak_vane:= 1;
+
+param akar_e_haromdet :=
+Elrabolva	0
+Rio	1
+Utazok	0
+Utveszto	1
+Joy	1
+Idegpalya	0
+Alien	1
+Rubinvoros	1
+Enekelj	0
+;
+
+
+
+
+
+
+end;
+
