@@ -2,6 +2,7 @@ set Filmek;
 set Napok;
 set Etel;
 
+
 param jegyar{f in Filmek, n in Napok};
 param haromdese{f in Filmek};
 param etelar{e in Etel};

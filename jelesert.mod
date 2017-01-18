@@ -57,7 +57,6 @@ maximize hany_filmet_latott: sum{n in Napok, f in Filmek, e in Emberek} megnezi_
 minimize mennyiert_evett: sum{n in Napok, e in Etel} (eszik_e[n,e]*etelar[e]);
 
 
-
 solve;
 printf "\n\n\nAz optimálisan megnézhetõ filmek száma %d forintból: %d db,\ndiákigazolvány van\n", sajat_penz, hany_filmet_latott;
 printf "-------------------------------------------\n";
